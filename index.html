@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mad Kiwi Games</title>
+<meta name="description" content="Mad Kiwi Games — mobile game studio.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 400%22><circle cx=%22200%22 cy=%22200%22 r=%22200%22 fill=%22%230b0b0b%22/><ellipse cx=%22200%22 cy=%22220%22 rx=%2295%22 ry=%2288%22 fill=%22%237A5230%22/><ellipse cx=%22172%22 cy=%22195%22 rx=%2224%22 ry=%2227%22 fill=%22%23fff%22/><ellipse cx=%22228%22 cy=%22195%22 rx=%2224%22 ry=%2227%22 fill=%22%23fff%22/><circle cx=%22178%22 cy=%22200%22 r=%2211%22 fill=%22%231a1a1a%22/><circle cx=%22222%22 cy=%22200%22 r=%2211%22 fill=%22%231a1a1a%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0b0b0b;
+    --green: #8bc53f;
+    --green-light: #a3d95c;
+    --cream: #f5f2ea;
+    --brown: #5e3e22;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: var(--bg);
+    color: var(--cream);
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 480px;
+  }
+  .logo {
+    width: min(58vw, 260px);
+    height: auto;
+    margin-bottom: 8px;
+  }
+  .wordmark {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    line-height: 0.95;
+    letter-spacing: 1px;
+    font-size: clamp(2.2rem, 8vw, 3.4rem);
+    margin: 4px 0 0;
+  }
+  .wordmark .mad { color: var(--cream); }
+  .wordmark .kiwi { color: var(--green); display: block; }
+  .games {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    font-size: 0.85rem;
+    color: var(--green-light);
+    margin-top: 6px;
+  }
+  footer {
+    margin-top: 56px;
+    font-size: 0.8rem;
+    color: #8a8a8a;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer .dot { color: var(--green); }
+  footer a {
+    color: #8a8a8a;
+    text-decoration: none;
+  }
+  footer a:hover { color: var(--green-light); }
+</style>
+</head>
+<body>
+<main>
+  <svg class="logo" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mad Kiwi Games logo">
+    <!-- brush-stroke ring -->
+    <g fill="none" stroke="#8bc53f" stroke-linecap="round">
+      <path d="M 200 46 A 154 154 0 1 1 92 88" stroke-width="15" opacity="0.95"/>
+      <path d="M 352 210 A 154 154 0 0 1 300 336" stroke-width="10" opacity="0.7"/>
+      <path d="M 88 318 A 154 154 0 0 1 58 232" stroke-width="12" opacity="0.85"/>
+    </g>
+
+    <!-- legs -->
+    <g stroke="#d9a441" stroke-width="7" stroke-linecap="round" fill="none">
+      <path d="M172 278 L166 316"/>
+      <path d="M228 278 L234 316"/>
+      <path d="M166 316 L152 326 M166 316 L166 330 M166 316 L180 326"/>
+      <path d="M234 316 L220 326 M234 316 L234 330 M234 316 L248 326"/>
+    </g>
+
+    <!-- body -->
+    <ellipse cx="200" cy="222" rx="98" ry="90" fill="#7a5230"/>
+    <g stroke="#5e3e22" stroke-width="2.5" opacity="0.45" stroke-linecap="round" fill="none">
+      <path d="M120 210 Q135 200 150 208"/>
+      <path d="M115 235 Q132 228 148 234"/>
+      <path d="M122 260 Q138 254 152 259"/>
+      <path d="M280 210 Q265 200 250 208"/>
+      <path d="M285 235 Q268 228 252 234"/>
+      <path d="M278 260 Q262 254 248 259"/>
+    </g>
+
+    <!-- head tuft -->
+    <g stroke="#5e3e22" stroke-width="6" fill="none" stroke-linecap="round">
+      <path d="M158 148 Q146 96 122 74"/>
+      <path d="M182 136 Q176 80 164 54"/>
+      <path d="M208 135 Q214 78 226 52"/>
+      <path d="M230 145 Q252 98 276 78"/>
+    </g>
+
+    <!-- eyebrows (shocked) -->
+    <g stroke="#5e3e22" stroke-width="6" fill="none" stroke-linecap="round">
+      <path d="M144 160 Q170 140 198 158"/>
+      <path d="M204 158 Q232 138 258 156"/>
+    </g>
+
+    <!-- eyes -->
+    <ellipse cx="172" cy="196" rx="27" ry="31" fill="#fbfbf7"/>
+    <ellipse cx="228" cy="196" rx="27" ry="31" fill="#fbfbf7"/>
+    <circle cx="178" cy="202" r="13.5" fill="#181818"/>
+    <circle cx="222" cy="202" r="13.5" fill="#181818"/>
+    <circle cx="183" cy="196" r="3.4" fill="#fff"/>
+    <circle cx="227" cy="196" r="3.4" fill="#fff"/>
+
+    <!-- beak -->
+    <path d="M188 226 Q202 268 178 288 Q210 280 216 230 Z" fill="#c9d93e" stroke="#8fa82e" stroke-width="2.5" stroke-linejoin="round"/>
+  </svg>
+
+  <h1 class="wordmark"><span class="mad">MAD</span><span class="kiwi">KIWI</span></h1>
+  <div class="games">GAMES</div>
+
+  <footer>
+    <span>© 2026 Mad Kiwi Games</span>
+    <span class="dot">◆</span>
+    <a href="mailto:games@madkiwi.app">games@madkiwi.app</a>
+  </footer>
+</main>
+</body>
+</html>
