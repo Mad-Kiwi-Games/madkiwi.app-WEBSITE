@@ -1,0 +1,23 @@
+# app-ads.txt for madkiwi.app / Mad Kiwi Games
+#
+# IAB "Authorized Sellers for Apps" declaration.
+# Each line: <ad system domain>, <YOUR publisher/seller ID>, <relationship>, <certification authority ID>
+#
+# ACTION NEEDED before this file is functional:
+# Replace every REPLACE_WITH_* placeholder below with the real publisher/seller ID
+# from your own account on that ad network's dashboard. Placeholder values do not
+# validate against anything and ad networks / crawlers will simply ignore those lines.
+
+# --- AppLovin MAX (ad mediation) ---
+# Get your full, correct list from: AppLovin MAX dashboard > Account > app-ads.txt
+# AppLovin auto-generates the complete list (including all mediated networks) for your
+# specific publisher account — do not hand-copy another studio's list, the IDs won't match.
+applovin.com, REPLACE_WITH_APPLOVIN_PUBLISHER_ID, DIRECT
+
+# --- Google (AdMob / Ad Manager, if used) ---
+# Find your Publisher ID in AdMob: Apps > [app] > App settings (format: pub-XXXXXXXXXXXXXXXX)
+google.com, REPLACE_WITH_ADMOB_PUBLISHER_ID, DIRECT, f08c47fec0942fa0
+
+# --- Meta / Facebook Audience Network ---
+# Find your Publisher ID in Meta Audience Network Manager > Monetization Manager
+facebook.com, REPLACE_WITH_META_PUBLISHER_ID, DIRECT, c3e20eee3f780d68
