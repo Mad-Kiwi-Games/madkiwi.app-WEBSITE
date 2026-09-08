@@ -1,4 +1,4 @@
-# app-ads.txt for madkiwi.app / Mad Kiwi Games
+# app-ads.txt for madkiwi.app / Mad Kiwi
 #
 # IAB "Authorized Sellers for Apps" declaration.
 # Each line: <ad system domain>, <YOUR publisher/seller ID>, <relationship>, <certification authority ID>
